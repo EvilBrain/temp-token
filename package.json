@@ -1,6 +1,6 @@
 {
   "name": "temp-token",
-  "version": "0.1.0-dev",
+  "version": "0.1.0",
   "description": "Create a temporary token.",
   "main": "src/index.js",
   "scripts": {
