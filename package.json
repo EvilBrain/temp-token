@@ -1,6 +1,6 @@
 {
   "name": "temp-token",
-  "version": "1.0.0",
+  "version": "0.1.0-dev",
   "description": "Create a temporary token.",
   "main": "src/index.js",
   "scripts": {
@@ -10,5 +10,21 @@
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvilBrain/temp-token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvilBrain/temp-token/issues"
+  },
+  "keywords": [
+    "token",
+    "jwt",
+    "temp",
+    "temporary token"
+  ],
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.1"
   }
 }
