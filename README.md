@@ -9,7 +9,7 @@ Install it using [npm](https://www.npmjs.com/package/temp-token) :
 ```cmd
 $ npm install temp-token
 ```
-Or install using [yarn](https://yarnpkg.com/package/temp-token)
+Or install using [yarn](https://yarnpkg.com/package/temp-token) :
 ```cmd
 $ yarn add temp-token
 ```
