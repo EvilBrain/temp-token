@@ -1,2 +1,2 @@
 # temp-token
-Temporary Token
+![npm](https://img.shields.io/npm/v/temp-token)
