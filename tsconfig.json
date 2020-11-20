@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES5",
+        "outDir": "build",
+        "esModuleInterop": true,
+        "removeComments": true,
+        "watch": true,        
+    },
+    "include": ["src/*"]
+}
