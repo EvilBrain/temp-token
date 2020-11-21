@@ -12,7 +12,7 @@ var TempToken = (function () {
         this.Token = token;
         this.Time = time;
         try {
-            var tempToken = crypto_js_1.default.AES.encrypt(this.Token + "|&tempToken&|" + (Date.now() + (this.Time ? this.Time : (43200 * 1000))), "" + this.Key).toString();
+            var tempToken = crypto_js_1.default.AES.encrypt(this.Token + "|&tempToken&|" + (Date.now() + (this.Time ? (this.Time * 1000) : (43200 * 1000))), "" + this.Key).toString();
             return tempToken;
         }
         catch (err) {

@@ -25,7 +25,7 @@ var token = new tempToken.TempToken("your_secret_key");
 ## Usage
 Make a temporary token with this function :
 ```js
-token.make("your_token", 1800000); //time in ms
+token.make("your_token", 1800000); //time in seconds
 ```
 Check the token is valid :
 ```js
