@@ -1,6 +1,6 @@
 {
   "name": "temp-token",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Create a temporary token.",
   "main": "build/index",
   "scripts": {
