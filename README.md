@@ -27,11 +27,15 @@ var token = new tempToken.TempToken("your_secret_key");
 ## Usage
 Make a temporary token with this function :
 ```js
-token.make("your_token", 1800000); //time in seconds
+token.create("your_token", 1800000); //time in seconds
+```
+Revoke a temporary token with this function :
+```js
+token.revoke("your_token"); //time in seconds
 ```
 Check the token is valid :
 ```js
-token.checkToken("your_temp_token");
+token.check("your_temp_token");
 //if the token is valid, then it returns true
 //otherwise it returns false
 ```
